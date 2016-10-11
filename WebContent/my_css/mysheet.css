@@ -1,0 +1,108 @@
+body {
+	background-color: #F5F5F5;
+	font-family: "new century schoolbook";
+}
+
+.r1 {
+	height: 75px;
+	padding: 10px;
+}
+
+.rowcontainer {
+	
+}
+
+.rmessage {
+	margin: 5px;
+}
+
+.r2, .r3, .r4, .r5, .r6, .r7, .r8, .r9, .r10 {
+	margin: 25px;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+	background-color: lightgrey;
+}
+
+.r2 {
+	border-left: 6px solid #55518a;
+	border-right: 6px solid #55518a;
+}
+
+.r3 {
+	border-left: 6px solid #AC5685;
+	border-right: 6px solid #AC5685;
+}
+
+.r4 {
+	border-left: 6px solid #55518a;
+	border-right: 6px solid #55518a;
+}
+
+.r5 {
+	border-left: 6px solid #AC5685;
+	border-right: 6px solid #AC5685;
+}
+
+.r6 {
+	border-left: 6px solid #55518a;
+	border-right: 6px solid #55518a;
+}
+
+.r7 {
+	border-left: 6px solid #AC5685;
+	border-right: 6px solid #AC5685;
+}
+
+.r8 {
+	border-left: 6px solid #55518a;
+	border-right: 6px solid #55518a;
+}
+
+.r9 {
+	border-left: 6px solid #AC5685;
+	border-right: 6px solid #AC5685;
+}
+
+.r10 {
+	border-left: 6px solid #55518a;
+	border-right: 6px solid #55518a;
+}
+
+.r11 {
+	height: 75px;
+}
+
+.childrow {
+	padding: 5px;
+}
+
+.tab-content {
+	background-color: #e6e6e6;
+}
+
+.xxxx {
+	height: 10px;
+}
+
+.headtag {
+	padding-top: 10px; background-color : #eaecff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+	border-left: 6px solid #55518a;
+	border-right: 6px solid #55518a;
+	background-color: #eaecff;
+}
+
+.myheadtable {
+	width: 100%;
+	height: 60px;
+}
+
+.tablerow {
+	padding-left: 20px;
+}
+
+.rmessage {
+	padding-top: 20px;
+}
