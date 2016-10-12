@@ -8,19 +8,20 @@
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-<script type="text/javascript"></script>
-<link rel="stylesheet" href="my_css/file-1.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+<script src="my_js/autocompleter.js" type="text/javascript"></script>
 <script src="my_js/myquery.js" type="text/javascript"></script>
 <script src="my_js/numbersonly.js" type="text/javascript"></script>
 <link rel="stylesheet" href="my_css/mysheet.css" />
+<link rel="stylesheet" href="my_css/file-1.css">
 
-<title>AdminDailyEntry</title>
+<title>New-Daily-Entry-Prices</title>
 </head>
 <body>
 <body>
@@ -42,7 +43,6 @@
 	<form action="controller1?action=login" method="post"></form>
 
 	<%-- 	<div class="footerboard"><jsp:include page="pages/footer.jsp"></jsp:include></div> --%>
-
 
 	<div class="container">
 		<div class="row r1"></div>

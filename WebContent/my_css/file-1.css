@@ -3,12 +3,14 @@
 }
 
 .colormaroon {
-	background-color: #AC5685;
+		background-color: #AC5685; /* maroon */
+/* 	background-color: #809e02; */
+	/* green */
 }
 
 .titlename {
 	/* 		color: ;#1D8282; */
-/* 	font-weight: bold; */
+	/* 	font-weight: bold; */
 	font-size: 30px;
 	color: white;
 	margin: 0px;

@@ -136,7 +136,7 @@ function myBoxes1()
 		        + i
 		        + "' name='firstprice_num"
 		        + i
-		        + "'></div><div class='col-xs-3'><input type='text' class='form-control' name='firstprice_dis"
+		        + "'></div><div class='col-xs-3'><input type='text' class=\"form-control searchcity\" name='firstprice_dis"
 		        + i + "'  id='firstprice_dis" + i + "' ></div></div>";
 
 	}
@@ -169,7 +169,7 @@ function myBoxes2()
 		        + i
 		        + "' name='secondprice_num"
 		        + i
-		        + "'></div><div class='col-xs-3'><input type='text' class='form-control' name='secondprice_dis"
+		        + "'></div><div class='col-xs-3'><input type='text' class=\"form-control searchcity\" name='secondprice_dis"
 		        + i + "'  id='secondprice_dis" + i + "' ></div></div>";
 
 	}
@@ -203,7 +203,7 @@ function myBoxes3()
 		        + i
 		        + "' name='thirdprice_num"
 		        + i
-		        + "'></div><div class='col-xs-3'><input type='text' class='form-control' name='thirdprice_dis"
+		        + "'></div><div class='col-xs-3'><input type='text' class=\"form-control searchcity\" name='thirdprice_dis"
 		        + i + "'  id='thirdprice_dis" + i + "' ></div></div>";
 
 	}

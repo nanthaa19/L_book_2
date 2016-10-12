@@ -13,18 +13,28 @@
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-<title>login</title>
+
+<!-- <script type="text/javascript" src="JS/jquery-1.4.2.min.js"></script> -->
+<!-- <script src="JS/jquery.autocomplete.js"></script> -->
+
+<script src="my_js/myquery.js" type="text/javascript"></script>
+<script src="my_js/numbersonly.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="my_css/mysheet.css" />
+<link rel="stylesheet" href="my_css/file-1.css" />
+
+<title>Demo Login</title>
 </head>
 <body>
-<body style="background-color: F5F5F5">
+<body>
 	<div class="container row">
-		<nav class="navbar navbar-default navbar-fixed-top" style="background-color: #AC5685;">
+		<nav class="navbar navbar-default navbar-fixed-top colormaroon">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavigationbar">
 						<span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.jsp"><span class="icon-bar"></span>KL Book Statistics</a>
+					<a class="navbar-brand" href="index.jsp"><span class="icon-bar"></span><span class="titlename">KL Libro</span></a>
 				</div>
 				<jsp:include page="pages/navigation.jsp"></jsp:include>
 			</div>
@@ -43,16 +53,31 @@
 					<div class="form-group">
 						<label class="control-label col-sm-2" for="Password">Password:</label>
 						<div class="col-sm-4">
-							<input type="text" class="form-control" id="Password" required name="Password" placeholder="Enter Password">
+							<input type="text" class="form-control" id="Password" name="Password" required placeholder="Enter Password">
 						</div>
 					</div>
-					
-						
+					<div class="form-group">
+						<label class="control-label col-sm-2" for="search">City:</label>
+						<div class="col-sm-4">
+							<input type="text" class="form-control searchcity" id="search" name="search" required placeholder="Search City Name">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="control-label col-sm-2" for="search1">City:</label>
+						<div class="col-sm-4">
+							<input type="text" class="form-control searchcity" id="search1" name="search" required placeholder="Search City Name">
+						</div>
+					</div>
+
 					<div class="form-group">
 						<div class="col-sm-offset-2 col-sm-4">
 							<button type="submit" class="btn btn-default">Submit</button>
 						</div>
 					</div>
+
+					<script src="my_js/autocompleter.js" type="text/javascript"></script>
+					<script src="my_js/autocompleter.js" type="text/javascript"></script>
 				</form>
 			</div>
 		</div>

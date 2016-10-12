@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-<title>create user</title>
+<title>new-employee</title>
 
 <script src="my_js/myquery.js" type="text/javascript"></script>
 <script src="my_js/numbersonly.js" type="text/javascript"></script>
@@ -41,7 +41,7 @@
 			<div class="col-sm-12">
 				<div class="col-sm-2"></div>
 				<div class="col-sm-6">
-					<h4>Create New User</h4>
+					<h4>Create New Employee</h4>
 				</div>
 				<div class="col-sm-4"></div>
 			</div>
