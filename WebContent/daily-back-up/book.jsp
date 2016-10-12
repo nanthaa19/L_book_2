@@ -33,15 +33,15 @@
 							<table class="myheadtable">
 								<thead>
 									<tr>
-										<th>Name</th>
-										<th>District</th>
-										<th>Episode</th>
-										<th>Date</th>
-										<th>V</th>
-										<th>VI</th>
-										<th>Code</th>
-										<th>VIII</th>
-										<th>consolation</th>
+										<th></th>
+										<th>Win Win</th>
+										<th></th>
+										<th></th>
+										<th>2016-05-05</th>
+										<th></th>
+										<th>Kottayam</th>
+										<th></th>
+										<th>WINWIN - 225</th>
 									</tr>
 								</thead>
 							</table>
@@ -72,7 +72,7 @@
 										<td>5</td>
 										<td>66</td>
 										<td>77</td>
-										<td>77</td>
+										<td>5</td>
 									</tr>
 								</tbody>
 							</table>

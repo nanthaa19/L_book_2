@@ -86,12 +86,14 @@ body {
 }
 
 .headtag {
-	padding-top: 10px; background-color : #eaecff;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
-		rgba(0, 0, 0, 0.19);
+	padding-top: 10px;
+	/* 	background-color: #eaecff; */
+	background-color: #e6e6e6;
+	/* 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 */
+	/* 		rgba(0, 0, 0, 0.19); */
 	border-left: 6px solid #55518a;
 	border-right: 6px solid #55518a;
-	background-color: #eaecff;
+	border-left: 6px solid #55518a
 }
 
 .myheadtable {

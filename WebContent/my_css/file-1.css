@@ -1,0 +1,21 @@
+.newuser {
+	margin-top: 100px;
+}
+
+.colormaroon {
+	background-color: #AC5685;
+}
+
+.titlename {
+	/* 		color: ;#1D8282; */
+/* 	font-weight: bold; */
+	font-size: 30px;
+	color: white;
+	margin: 0px;
+	margin-left: 10px;
+	font-size: 30px;
+}
+
+.navbar-header {
+	background-color: #316D9B;
+}
