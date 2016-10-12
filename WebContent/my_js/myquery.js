@@ -119,7 +119,7 @@ function myBoxes1()
 {
 	var count = $("#t1").val();
 	var i;
-	var x = '';
+	var x = "";
 
 	for (i = 1; i <= count; i++)
 	{
@@ -136,11 +136,37 @@ function myBoxes1()
 		        + i
 		        + "' name='firstprice_num"
 		        + i
-		        + "'></div><div class='col-xs-3'><input type='text' class=\"form-control searchcity\" name='firstprice_dis"
-		        + i + "'  id='firstprice_dis" + i + "' ></div></div>";
+		        + "'></div><div class='col-xs-3'>"
+
+		        // + "<input type='text' class='form-control'
+		        // name='firstprice_dis" +
+		        // i + "' id='firstprice_dis" + i + "' >"
+
+		        + "<input list='cityName' class='form-control' name='firstprice_dis"
+		        + i
+		        + "' id='firstprice_dis"
+		        + i
+		        + "'>"
+		        + "<datalist id='cityName'>"
+		        + "<option value='Alappuzha'></option>"
+		        + "<option value='Ernakulam'></option>"
+		        + "<option value='Idukki'></option>"
+		        + "<option value='Kannur'></option>"
+		        + "<option value='Kasaragod'></option>"
+		        + "<option value='Kollam'></option>"
+		        + "<option value='Kottayam'></option>"
+		        + "<option value='Kozhikode'></option>"
+		        + "<option value='Malappuram'></option>"
+		        + "<option value='Palakkad'></option>"
+		        + "<option value='Pathanamthitta'></option>"
+		        + "<option value='Thiruvananthapuram'></option>"
+		        + "<option value='Thrissur'></option>"
+		        + "<option value='Wayanad'></option>"
+		        + "</datalist>" + "" + "</div></div>";
 
 	}
 	$(".boxes1").html(x);
+
 	if (count >= 1)
 	{
 		$(".boxes1submit")
@@ -169,8 +195,31 @@ function myBoxes2()
 		        + i
 		        + "' name='secondprice_num"
 		        + i
-		        + "'></div><div class='col-xs-3'><input type='text' class=\"form-control searchcity\" name='secondprice_dis"
-		        + i + "'  id='secondprice_dis" + i + "' ></div></div>";
+		        + "'></div><div class='col-xs-3'>"
+		        // + "<input type='text' class='form-control'
+		        // name='secondprice_dis"+ i + "' id='secondprice_dis" + i + "'
+		        // >"
+		        + "<input list='cityName' class='form-control' name='secondprice_dis"
+		        + i
+		        + "' id='secondprice_dis"
+		        + i
+		        + "'>"
+		        + "<datalist id='cityName'>"
+		        + "<option value='Alappuzha'></option>"
+		        + "<option value='Ernakulam'></option>"
+		        + "<option value='Idukki'></option>"
+		        + "<option value='Kannur'></option>"
+		        + "<option value='Kasaragod'></option>"
+		        + "<option value='Kollam'></option>"
+		        + "<option value='Kottayam'></option>"
+		        + "<option value='Kozhikode'></option>"
+		        + "<option value='Malappuram'></option>"
+		        + "<option value='Palakkad'></option>"
+		        + "<option value='Pathanamthitta'></option>"
+		        + "<option value='Thiruvananthapuram'></option>"
+		        + "<option value='Thrissur'></option>"
+		        + "<option value='Wayanad'></option>"
+		        + "</datalist>" + "</div></div>";
 
 	}
 	$(".boxes2").html(x);
@@ -203,8 +252,31 @@ function myBoxes3()
 		        + i
 		        + "' name='thirdprice_num"
 		        + i
-		        + "'></div><div class='col-xs-3'><input type='text' class=\"form-control searchcity\" name='thirdprice_dis"
-		        + i + "'  id='thirdprice_dis" + i + "' ></div></div>";
+		        + "'></div><div class='col-xs-3'>"
+		        // + "<input type='text' class='form-control searchcity'
+		        // name='thirdprice_dis" + i + "' id='thirdprice_dis" + i + "'
+		        // >"
+		        + "<input id='something' list='cityName' class='form-control' name='thirdprice_dis"
+		        + i
+		        + "' id='thirdprice_dis"
+		        + i
+		        + "'>"
+		        + "<datalist id='cityName'>"
+		        + "<option value='Alappuzha'></option>"
+		        + "<option value='Ernakulam'></option>"
+		        + "<option value='Idukki'></option>"
+		        + "<option value='Kannur'></option>"
+		        + "<option value='Kasaragod'></option>"
+		        + "<option value='Kollam'></option>"
+		        + "<option value='Kottayam'></option>"
+		        + "<option value='Kozhikode'></option>"
+		        + "<option value='Malappuram'></option>"
+		        + "<option value='Palakkad'></option>"
+		        + "<option value='Pathanamthitta'></option>"
+		        + "<option value='Thiruvananthapuram'></option>"
+		        + "<option value='Thrissur'></option>"
+		        + "<option value='Wayanad'></option>"
+		        + "</datalist>" + "</div></div>";
 
 	}
 	$(".boxes3").html(x);

@@ -76,8 +76,41 @@
 						</div>
 					</div>
 
-					<script src="my_js/autocompleter.js" type="text/javascript"></script>
-					<script src="my_js/autocompleter.js" type="text/javascript"></script>
+					<div class="form-group">
+						<label for="something"> Input "Something": <input id="something" list="somethingelse" class="form-control"> <datalist
+								id="somethingelse">
+								<option value="Something"></option>
+								<option value="Something Else"></option>
+								<option value="Another One"></option>
+								<option value="Alpha"></option>
+								<option value="Bravo"></option>
+								<option value="Charlie"></option>
+								<option value="Delta"></option>
+								<option value="Echo"></option>
+								<option value="Foxtrot"></option>
+								<option value="Gamma"></option>
+							</datalist>
+						</label>
+					</div>
+
+
+					<input id='something' list='cityName' class='form-control'>
+					<datalist id='cityName'>
+						<option value='Alappuzha'></option>
+						<option value='Ernakulam'></option>
+						<option value='Idukki'></option>
+						<option value='Kannur'></option>
+						<option value='Kasaragod'></option>
+						<option value='Kollam'></option>
+						<option value='Kottayam'></option>
+						<option value='Kozhikode'></option>
+						<option value='Malappuram'></option>
+						<option value='Palakkad'></option>
+						<option value='Pathanamthitta'></option>
+						<option value='Thiruvananthapuram'></option>
+						<option value='Thrissur'></option>
+						<option value='Wayanad'></option>
+					</datalist>
 				</form>
 			</div>
 		</div>
@@ -88,4 +121,5 @@
 	<%-- 	<div class="footerboard"><jsp:include page="footer.jsp"></jsp:include></div> --%>
 
 </body>
+<script src="my_js/autocompleter.js" type="text/javascript"></script>
 </html>

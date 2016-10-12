@@ -67,19 +67,19 @@
 					<div class="form-group">
 						<label class="control-label col-sm-2" for="field3">Password:</label>
 						<div class="col-sm-4">
-							<input type="text" class="form-control" id="field3" required name="password" placeholder="Enter Password">
+							<input type="password" class="form-control" id="field3" required name="password" placeholder="Enter Password">
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="control-label col-sm-2" for="field4">Re-Enter Password:</label>
 						<div class="col-sm-4">
-							<input type="text" class="form-control" id="field4" required name="repassword" placeholder="Re-Enter Password">
+							<input type="password" class="form-control" id="field4" required name="repassword" placeholder="Re-Enter Password">
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="control-label col-sm-2" for="field5">MailId:</label>
 						<div class="col-sm-4">
-							<input type="text" class="form-control" id="field5" required name="emailid" placeholder="Enter EmailId">
+							<input type="email" class="form-control" id="field5" required name="emailid" placeholder="Enter EmailId">
 						</div>
 					</div>
 					<div class="form-group">

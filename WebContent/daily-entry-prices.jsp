@@ -15,9 +15,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+<script src="my_js/numbersonly.js" type="text/javascript"></script>
 <script src="my_js/autocompleter.js" type="text/javascript"></script>
 <script src="my_js/myquery.js" type="text/javascript"></script>
-<script src="my_js/numbersonly.js" type="text/javascript"></script>
+
 <link rel="stylesheet" href="my_css/mysheet.css" />
 <link rel="stylesheet" href="my_css/file-1.css">
 
@@ -38,7 +39,6 @@
 			</div>
 		</nav>
 	</div>
-
 
 	<form action="controller1?action=login" method="post"></form>
 
@@ -174,7 +174,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row r11 "></div>
+						<div class="row r11"></div>
 					</form>
 				</div>
 
