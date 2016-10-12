@@ -48,90 +48,96 @@
 		</div>
 	</div>
 	<div class="container" style="height: 150px;">
-		<div class="row">
-			<div class="col-sm-12">
-				<form class="form-horizontal" action="OracleDataBase?action=insert" method="post">
-					<div class="form-group">
-						<label class="control-label col-sm-2" for="field1">Date :</label>
-						<div class="col-sm-4">
-							<input type="text" class="form-control" id="field1" name="name" required placeholder="Enter Date">
+		<div class="row formcontainer">
+<!-- 			<div class="col-sm-1"></div> -->
+<!-- 			<div class="col-sm-12"> -->
+				<form class="form-horizontal" action="" method="post">
+					<div class="col-sm-6">
+						<div class="form-group">
+							<label class="control-label col-sm-4" for="field1">Date :</label>
+							<div class="col-sm-8">
+								<input type="text" class="form-control" id="field1" name="name" required placeholder="Enter Date">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-4" for="field2">BookName:</label>
+							<div class="col-sm-8">
+								<input type="text" class="form-control" id="field2" required name="day" placeholder="Enter Book Name">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-4" for="field3">EpisodeId:</label>
+							<div class="col-sm-8">
+								<input type="text" class="form-control" id="field3" required name="keyword" placeholder="Enter Episode-Id">
+							</div>
 						</div>
 					</div>
-					<div class="form-group">
-						<label class="control-label col-sm-2" for="field2">BookName:</label>
-						<div class="col-sm-4">
-							<input type="text" class="form-control" id="field2" required name="day" placeholder="Enter Week Day">
+					<div class="col-sm-6">
+						<div class="form-group">
+							<label class="control-label col-sm-4" for="field4">First:</label>
+							<div class="col-sm-4">
+								<input type="text" class="form-control" id="field4" required name="series" placeholder="Enter No.of.First Prizes">
+							</div>
 						</div>
-					</div>
-					<div class="form-group">
-						<label class="control-label col-sm-2" for="field3">EpisodeId:</label>
-						<div class="col-sm-4">
-							<input type="text" class="form-control" id="field3" required name="keyword" placeholder="Enter Keyword">
+						<div class="form-group">
+							<label class="control-label col-sm-4" for="field5">Second:</label>
+							<div class="col-sm-4">
+								<input type="text" class="form-control" id="field5" required name="district" placeholder="Enter No.of.Second Prizes">
+							</div>
 						</div>
-					</div>
-					<div class="form-group">
-						<label class="control-label col-sm-2" for="field4">First:</label>
-						<div class="col-sm-4">
-							<input type="text" class="form-control" id="field4" required name="series" placeholder="Enter Series">
+						<div class="form-group">
+							<label class="control-label col-sm-4" for="field6">Third:</label>
+							<div class="col-sm-4">
+								<input type="text" class="form-control" id="field6" required name="dofr" placeholder="Enter No.of.Third Prizes">
+							</div>
 						</div>
-					</div>
-					<div class="form-group">
-						<label class="control-label col-sm-2" for="field5">Second:</label>
-						<div class="col-sm-4">
-							<input type="text" class="form-control" id="field5" required name="district" placeholder="Enter District">
+						<div class="form-group">
+							<label class="control-label col-sm-4" for="field7">Fourth:</label>
+							<div class="col-sm-4">
+								<input type="date" class="form-control" id="field7" required name="type" placeholder="Enter No.of.Fourth Prizes">
+							</div>
 						</div>
-					</div>
-					<div class="form-group">
-						<label class="control-label col-sm-2" for="field6">Third:</label>
-						<div class="col-sm-4">
-							<input type="text" class="form-control" id="field6" required name="dofr" placeholder="Enter The Date Of First Release">
+						<div class="form-group">
+							<label class="control-label col-sm-4" for="field7">Fifth:</label>
+							<div class="col-sm-4">
+								<input type="date" class="form-control" id="field7" required name="type" placeholder="Enter No.of.Fifth Prizes">
+							</div>
 						</div>
-					</div>
-					<div class="form-group">
-						<label class="control-label col-sm-2" for="field7">Fourth:</label>
-						<div class="col-sm-4">
-							<input type="date" class="form-control" id="field7" required name="type" placeholder="Select Book Type">
+						<div class="form-group">
+							<label class="control-label col-sm-4" for="field7">Sixth:</label>
+							<div class="col-sm-4">
+								<input type="date" class="form-control" id="field7" required name="type" placeholder="Enter No.of.Sixth Prizes">
+							</div>
 						</div>
-					</div>
-					<div class="form-group">
-						<label class="control-label col-sm-2" for="field7">Fifth:</label>
-						<div class="col-sm-4">
-							<input type="date" class="form-control" id="field7" required name="type" placeholder="Select Book Type">
+						<div class="form-group">
+							<label class="control-label col-sm-4" for="field7">Seventh:</label>
+							<div class="col-sm-4">
+								<input type="date" class="form-control" id="field7" required name="type" placeholder="Enter No.of.Seventh Prizes">
+							</div>
 						</div>
-					</div>
-					<div class="form-group">
-						<label class="control-label col-sm-2" for="field7">Sixth:</label>
-						<div class="col-sm-4">
-							<input type="date" class="form-control" id="field7" required name="type" placeholder="Select Book Type">
+						<div class="form-group">
+							<label class="control-label col-sm-4" for="field7">Eighth:</label>
+							<div class="col-sm-4">
+								<input type="date" class="form-control" id="field7" required name="type" placeholder="Enter No.of.Eighth Prizes">
+							</div>
 						</div>
-					</div>
-					<div class="form-group">
-						<label class="control-label col-sm-2" for="field7">Seventh:</label>
-						<div class="col-sm-4">
-							<input type="date" class="form-control" id="field7" required name="type" placeholder="Select Book Type">
+						<div class="form-group">
+							<label class="control-label col-sm-4" for="field7">Consolation:</label>
+							<div class="col-sm-4">
+								<input type="date" class="form-control" id="field7" required name="type" placeholder="Enter No.of.Consolation Prizes">
+							</div>
 						</div>
-					</div>
-					<div class="form-group">
-						<label class="control-label col-sm-2" for="field7">Eighth:</label>
-						<div class="col-sm-4">
-							<input type="date" class="form-control" id="field7" required name="type" placeholder="Select Book Type">
-						</div>
-					</div>
-					<div class="form-group">
-						<label class="control-label col-sm-2" for="field7">Consolation:</label>
-						<div class="col-sm-4">
-							<input type="date" class="form-control" id="field7" required name="type" placeholder="Select Book Type">
-						</div>
-					</div>
-					<div class="form-group">
-						<div class="col-sm-offset-2 col-sm-4">
-							<button type="submit" class="btn btn-default">Submit</button>
+						<div class="form-group">
+							<div class="col-sm-offset-6 col-sm-4">
+								<button type="submit" class="btn btn-default">Submit</button>
+							</div>
 						</div>
 					</div>
 				</form>
 			</div>
 		</div>
-	</div>
+<!-- 	</div> -->
+
 	<form action="controller1?action=login" method="post"></form>
 	<%-- 	<div class="footerboard"><jsp:include page="footer.jsp"></jsp:include></div> --%>
 </body>
