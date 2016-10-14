@@ -4,7 +4,7 @@
 <meta charset="ISO-8859-1">
 <title>JQ-1</title>
 
-<link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+<!-- <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
@@ -12,16 +12,84 @@
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script> -->
 
 
 <link rel="stylesheet" type="text/css" href="utility-packages/google-apis-fonts/Lato.css">
 <link rel="stylesheet" type="text/css" href="utility-packages/google-apis-fonts/Montserrat.css">
 <link rel="stylesheet" type="text/css" href="utility-packages/bootstrap/bootstrap-3.3.7/dist/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href=>
- 
+<link rel="stylesheet" type="text/css" href="utility-packages/jquery/jquery-ui-themes-1.12.0/jquery-ui-themes-1.12.0/jquery-ui.css">
+
+<script type="text/javascript" src="utility-packages/bootstrap/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="utility-packages/jquery/jquery-ui-1.12.0/jquery-ui-1.12.0/jquery-ui.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- <script type="text/javascript">
+	$(document).ready(function()
+    {
+	    var obj = {
+	        "flammable 1" : "inflammable",
+	        "duh 2" : "no duh"
+	    };
+	    $.each(obj, function(key, value)
+	    {
+		    alert(key + ": " + value);
+	    });
+
+	    $("input[type='text']").on("blur", function()
+	    {
+		    if (!this.value)
+		    {
+			    alert("Please enter some text!");
+		    }
+	    });
+    });
+</script> -->
+
+<style type="text/css">
+#id {
+	text-transform: uppercase
+}
+</style>
+
+<script type="text/javascript">
+	$("document").ready(function()
+    {
+	    $('#id1').keyup(function()
+	    {
+		    this.value = this.value.toUpperCase();
+		   
+	    });
+    });
+</script>
+
 </head>
 <body>
 
+	<p class="p1">click here</p>
+	<p class="result-writing">see me</p>
+
+	<input type="text" id="id1" name="n1">
+	<input type="text" id="id" name="name" />
+
 </body>
+
+<script type="text/javascript">
+	$(document).ready(function()
+    {
+	    $('.p1').click(function()
+	    {
+		    $.ajax({
+		        url : "index.html",
+		        dataType : "text",
+		        success : function(result)
+		        {
+			        $(".result-writing").html(result);
+		        }
+		    });
+	    });
+    });
+</script>
+
 </html>

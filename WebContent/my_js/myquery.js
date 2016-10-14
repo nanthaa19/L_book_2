@@ -128,7 +128,7 @@ function myBoxes1()
 		        + "'>"
 		        + i
 		        + "."
-		        + " </label></div><div class='col-xs-1'><input class='form-control' style='padding:4px;' id='firstprice_kw"
+		        + " </label></div><div class='col-xs-1'><input class='form-control' style='padding: 4px; text-transform: uppercase;' id='firstprice_kw"
 		        + i
 		        + "' name='firstprice_kw"
 		        + i
@@ -187,7 +187,7 @@ function myBoxes2()
 		        + "'>"
 		        + i
 		        + "."
-		        + " </label></div><div class='col-xs-1'><input class='form-control' style='padding:4px;' id='secondprice_kw"
+		        + " </label></div><div class='col-xs-1'><input class='form-control prices' style='padding:4px; text-transform: uppercase;' id='secondprice_kw"
 		        + i
 		        + "' name='secondprice_kw"
 		        + i
@@ -244,7 +244,7 @@ function myBoxes3()
 		        + "'>"
 		        + i
 		        + "."
-		        + " </label></div><div class='col-xs-1'><input class='form-control' style='padding:4px;' id='thirdprice_kw"
+		        + " </label></div><div class='col-xs-1'><input class='form-control' style='padding:4px; text-transform: uppercase;' id='thirdprice_kw"
 		        + i
 		        + "' name='thirdprice_kw"
 		        + i

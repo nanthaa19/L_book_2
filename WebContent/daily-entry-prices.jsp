@@ -20,7 +20,11 @@
 
 <link rel="stylesheet" href="my_css/mysheet.css" />
 <link rel="stylesheet" href="my_css/file-1.css">
-
+<style>
+.prices {
+	text-transform: uppercase
+}
+</style>
 <title>New-Daily-Entry-Prices</title>
 </head>
 <body>

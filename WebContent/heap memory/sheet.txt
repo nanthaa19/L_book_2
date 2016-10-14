@@ -1,0 +1,500 @@
+	Basics Of Java
+	OOPs Concept
+	Java String
+	Exception Handling
+	Multithreading
+	I/O
+	Networking
+	Swing
+	JDBC
+	Collection
+	New Features
+	
+	Servlet
+	JSP
+	Hibernate
+	JSF
+	Spring
+	
+	
+	MVC
+	JSF
+	Hibernate
+	Bootstrab
+	JavaScript
+	MySQL, Oracle
+	DesignPattern
+	Maven
+	Ajax
+	
+						---------------------------- Java DesignPattern ----------------------------
+						
+						design pattern represents an idea to solving all object oriented programming
+
+						By using design pattern we can make our code flexible , reusable and maintainable.
+						Java inernally follows design pattern.
+
+						1.Creational Design Pattern (5)
+
+							Factory Pattern
+							Abstract Factory Pattern
+							Singleton Pattern
+							Prototype Pattern
+							Builder Pattern.
+
+						2. Structural Design Pattern (7)
+
+							Adapter Pattern
+							Bridge Pattern
+							Composite Pattern
+							Decorator Pattern
+							Facade Pattern
+							Flyweight Pattern
+							Proxy Pattern
+
+						3. Behavioral Design Pattern (11)
+
+							Chain Of Responsibility Pattern
+							Command Pattern
+							Interpreter Pattern
+							Iterator Pattern
+							Mediator Pattern
+							Memento Pattern
+							Observer Pattern
+							State Pattern
+							Strategy Pattern
+							Template Pattern
+							Visitor Pattern
+	
+	
+						Creational Design pattern is the way of creating objects
+						
+						Weekly Books						
+						WIN-WIN
+						Sthree Sakthi
+						AKSHAYA
+						KARUNYA PLUS
+						BAGYANITHI
+						KARUNYA
+						POURNAMI	
+						
+						
+Sthree Sakthi (SS-23)	04/10/2016	View
+WIN-WIN (W-379)	03/10/2016	View
+Karunya (KR-261)	01/10/2016	View
+BHAGYANIDHI (BN-257)	30/09/2016	View
+Karunya Plus (KN-129)	29/09/2016	View
+Akshaya (AK-260)	28/09/2016	View
+Sthree Sakthi (SS-22)	27/09/2016	View
+WIN-WIN (W-378)	26/09/2016	View
+POURNAMI (RN-256)	25/09/2016	View
+Karunya (KR-260)	24/09/2016	View
+						
+						
+		Object 
+			name
+			date
+			keyword
+				
+	
+05-10-2016
+	
+Akshaya Books AK-261
+	
+
+	
+
+
+	
+04-10-2016
+	
+Sthree Sakthi Books SS-23
+	
+
+	
+
+
+	
+03-10-2016
+	
+Win Win Books W-379
+	
+
+	
+
+
+	
+02-10-2016
+	
+NO DRAW - Gandhi Jayanti
+	
+
+	
+
+
+	
+01-10-2016
+	
+Karunya Books KR-261
+	
+
+	
+
+
+	
+30-09-2016
+	
+BHAGYANIDHI Books BN-257
+	
+
+	
+
+
+	
+29-09-2016
+	
+Karunya Plus Books KN-129
+	
+
+	
+
+
+	
+28-09-2016
+	
+Akshaya Books AK-260
+	
+
+	
+
+
+	
+27-09-2016
+	
+Sthree Sakthi Books SS-22
+	
+
+	
+
+
+	
+26-09-2016
+	
+Win Win Books W-378
+	
+
+	
+
+
+	
+25-09-2016
+	
+POURNAMI Books RN-256
+	
+
+	
+
+
+	
+24-09-2016
+	
+Karunya Books KR-260
+	
+
+	
+
+
+	
+23-09-2016
+	
+THIRUVONAM BUMPER Books (BR 51)
+	
+
+	
+
+
+	
+23-09-2016
+	
+BHAGYANIDHI Books BN-256
+	
+
+	
+
+
+	
+22-09-2016
+	
+Karunya Plus Books KN-128
+	
+
+	
+
+
+	
+21-09-2016
+	
+Akshaya Books AK-259
+	
+
+	
+
+
+	
+20-09-2016
+	
+Sthree Sakthi Books SS-21
+	
+
+	
+
+
+	
+19-09-2016
+	
+Win Win Books W-377
+	
+
+	
+
+
+	
+18-09-2016
+	
+POURNAMI Books RN-255
+	
+
+	
+
+
+	
+17-09-2016
+	
+Karunya Books KR-259
+	
+
+	
+
+
+	
+16-09-2016
+	
+BHAGYANIDHI Books BN-255
+	
+
+	
+	
+30/09/2016
+	
+BHAGYANIDHI (BN-257 )
+	
+
+29/09/2016
+	
+KARUNYA  PLUS (KN-126 )
+	
+
+28/09/2016
+	
+AKSHAYA (AK-260 )
+	
+
+27/09/2016
+	
+STHREE SAKTHI (SS-22 )
+	
+
+26/09/2016
+	
+WIN WIN (W-378 )
+	
+
+25/09/2016
+	
+POURNAMI (RN-256 )
+	
+
+24/09/2016
+	
+KARUNYA (KR-260 )
+	
+
+23/09/2016
+	
+THIRUVONAM BUMPER (BR-51 )
+	
+
+23/09/2016
+	
+BHAGYANIDHI (BN-256 )
+	
+
+22/09/2016
+	
+KARUNYA  PLUS (KN-125 )
+	
+
+21/09/2016
+	
+AKSHAYA (AK-259 )
+	
+
+20/09/2016
+	
+STHREE SAKTHI (SS-21 )
+	
+
+19/09/2016
+	
+WIN WIN (W-377 )
+	
+
+18/09/2016
+	
+POURNAMI (RN-255 )
+	
+
+17/09/2016
+	
+KARUNYA (KR-259 )
+	
+
+16/09/2016
+	
+BHAGYANIDHI (BN-255 )
+	
+
+15/09/2016
+	
+KARUNYA  PLUS (KN-124 )
+	
+
+14/09/2016
+	
+NO DRAW ONAM HOLIDAY
+	
+
+13/09/2016
+	
+STHREE SAKTHI (SS-20 )
+	
+
+12/09/2016
+	
+WIN WIN (W-376 )
+	
+
+11/09/2016
+	
+POURNAMI (RN-254 )
+	
+
+10/09/2016
+	
+KARUNYA (KR-258 )
+	
+
+09/09/2016
+	
+BHAGYANIDHI (BN-254 )
+	
+
+08/09/2016
+	
+KARUNYA  PLUS (KN-123 )
+	
+
+07/09/2016
+	
+AKSHAYA (AK-258 )
+	
+
+06/09/2016
+	
+STHREE SAKTHI (SS-19 )
+	
+
+05/09/2016
+	
+WIN WIN (W-375 )
+	
+
+04/09/2016
+	
+POURNAMI (RN-253 )
+	
+
+03/09/2016
+	
+KARUNYA (KR-257 )
+	
+
+02/09/2016
+	
+BHAGYANIDHI (BN-253 )
+	
+
+01/09/2016
+	
+KARUNYA  PLUS (KN-122 )
+	
+
+ Calendar calendar = Calendar.getInstance();
+ java.sql.Date startDate = new java.sql.Date(calendar.getTime().getTime());
+
+user	
+----	
+add user
+update user
+delete user 
+
+0.add - if exists user don't add (ajax)	--- [select `employee_username` from l.faculty_employees where `employee_username` = '?';]
+1.add user (insert)	--- [insert into l.faculty_employees (`employee_username`,`employee_password`,`employee_email`,`employee_dob`,`employee_designation`,`employee_creater`,`entry_date`) values (?,?,?,?,?,?,?,?);]
+2.read - user (editable) --- [update l.faculty_employees set  `employee_password`= ? where `employee_username` = ? and `employee_email` = ? and `employee_dob` = ?;]
+3.read - all user (table) && no.of.entries (table)  --- []
+4.login	(select) --- [select * from l.faculty_employees where `employee_username` = ? and `employee_password`= ?;]
+5.search user (ajax) --- [select `employee_username` from l.faculty_employees where `employee_username` = '?';]
+6.update user by admin (deactivate account by admin) --- [update l.faculty_employees set `employee_status`= ? where `employee_username` = ? and `employee_email` = ? and `employee_dob` = ?;] 
+			
+book
+----
+add b
+update b
+delete b
+
+0.add - if exists book dont do to add (ajax) ---- [select * from l.category where `name` like '%?';]
+1.add book (insert) ---- [insert into l.category (`name`,`day`,`keyword`,`series`,`district`,`dateOfFirstRelease`,`type`,`creater_id`,`entry_date`) values (?,?,?,?,?,?,?,?,?);]
+2.read - book (editable) ---- [update l.category set `name` = ? ,`day` = ? ,`keyword` = ? ,`series` = ? ,`district` = ? ,`dateOfFirstRelease` = ?,`type` = ? where `name` = ? ;]
+3.read - all book (table) ---- [select * from .category;]
+4.search book (ajax) ---- [select * from l.category where `name` like '%?';]
+5.delete book (table) ---- [update l.category set `status` = ? where `name` = ? ;]
+
+episode
+-------							
+add epi
+update epi
+delete epi
+
+0.add - if exists epi dont do to add (ajax) ---- [select * from l.book where date = ? ;]
+1.add (insert) ---- [insert into l.book (`date` , `book_id` ,`episode_id` , `first` ,`second` ,`third` ,`fourth` , `fifth` , `sixth` ,`seventh` , `eighth` ,`consolation` ,`creater_id` ,`entry_date` ) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?) ;]
+2.read one (editable) ---- [update l.book set `date` = ?, `book_id` = ?,`episode_id` = ? , `first` = ? ,`second` = ? ,`third` = ? ,`fourth` = ? , `fifth` = ? , `sixth` = ? ,`seventh`= ? , `eighth`= ? ,`consolation` = ? ,`creater_id` = ? ,`entry_date` = ? where `episode_id` = ?;] 
+3.read all (table) ---- [select * from l.book;]
+4.search and select (editable) ---- [[update l.book set `date` = ?, `book_id` = ?,`episode_id` = ? , `first` = ? ,`second` = ? ,`third` = ? ,`fourth` = ? , `fifth` = ? , `sixth` = ? ,`seventh`= ? , `eighth`= ? ,`consolation` = ? ,`creater_id` = ? ,`entry_date` = ? where `episode_id` = ?;] ]
+
+pri
+---
+add pri
+update pri
+delete pri
+ 
+0.add - if exists epi dont do to add (ajax)
+1.add (insert)
+2.read one
+3.read all (table)
+4.search and select (editable) 
+5.update one 
+6.delete one
+ 
+ view 
+ ----
+ 
